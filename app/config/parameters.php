@@ -3,9 +3,9 @@
   array (
     'database_host' => 'localhost',
     'database_port' => '',
-    'database_name' => 'wwellzc1_prest72',
-    'database_user' => 'wwellzc1_prest72',
-    'database_password' => '9m]pbJS7]8',
+    'database_name' => 'wwellzc1_pres933',
+    'database_user' => 'wwellzc1_pres933',
+    'database_password' => 'p3PsS7y)]9',
     'database_prefix' => 'pse4_',
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',

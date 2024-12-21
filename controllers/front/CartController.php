@@ -358,6 +358,14 @@ class CartControllerCore extends FrontController
         CartRule::autoAddToCart();
     }
 
+    protected function sendAddToCartEvent(){
+
+        
+
+    }
+
+
+
     /**
      * This process add or update a product in the cart.
      */

@@ -7,7 +7,7 @@
 /download/
 
 /config/xml/
-/config/settings.inc.php
+/config/settings.inc.php 
 
 # Ignore compiled files
 /app/cache/
