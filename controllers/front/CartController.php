@@ -358,6 +358,8 @@ class CartControllerCore extends FrontController
         CartRule::autoAddToCart();
     }
 
+    
+
     protected function sendAddToCartEvent(){
 
         
@@ -374,6 +376,7 @@ class CartControllerCore extends FrontController
         
         $mode = (Tools::getIsset('update') && $this->id_product) ? 'update' : 'add';
         $ErrorKey = ('update' === $mode) ? 'updateOperationError' : 'errors';
+        
 
         if (Tools::getIsset('group')) {
             $this->id_product_attribute = (int) Product::getIdProductAttributeByIdAttributes(
