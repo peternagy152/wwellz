@@ -1,0 +1,37 @@
+# Logs and temporary files
+/logs/
+/tmp/
+/cache/
+/img/tmp/
+/upload/
+/download/
+
+/config/xml/
+/config/settings.inc.php
+
+# Ignore compiled files
+/app/cache/
+/vendor/
+
+# Ignore node_modules if using frontend tools
+/node_modules/
+
+# Ignore PrestaShop modules, themes, or overrides (if managed separately)
+modules/*
+themes/*
+
+# Ignore common backup or export files
+*.zip
+*.tar
+*.gz
+*.sql
+
+# Ignore IDE/editor config files
+*.idea/
+*.vscode/
+*.swp
+
+# Ignore environment-specific files
+.env
+.DS_Store
+Thumbs.db

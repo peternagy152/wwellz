@@ -1,0 +1,1 @@
+*ERROR* 	v8.1.4	2024/05/08 - 05:39:18: Link to database cannot be established: SQLSTATE[HY000] [1040] Too many connections at line 119 in file classes/db/DbPDO.php
